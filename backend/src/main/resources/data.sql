@@ -12,3 +12,6 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 1);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
+
+
+INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp HTML', 'https://sinajuve.ibict.br/wp-content/uploads/2020/08/%C3%ADcone-cursos.png', 'https://cdn.evg.gov.br/cursos/198_EVG/banner.svg');
