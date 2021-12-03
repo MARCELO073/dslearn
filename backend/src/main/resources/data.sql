@@ -24,3 +24,15 @@ INSERT INTO tb_resource (titles,description, position,img_Uri,type,offer_id) VAL
 INSERT INTO tb_section (titles,description, position,img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 1','Neste capitulo vamos começar', 1,'https://sinajuve.ibict.br/wp-content/uploads/2020/08/%C3%ADcone-cursos.png', 1, null);
 INSERT INTO tb_section (titles,description, position,img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 2','Neste capitulo vamos comtnuar', 1,'https://sinajuve.ibict.br/wp-content/uploads/2020/08/%C3%ADcone-cursos.png', 1, 1);
 INSERT INTO tb_section (titles,description, position,img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 3','Neste capitulo vamos finalizar', 1,'https://sinajuve.ibict.br/wp-content/uploads/2020/08/%C3%ADcone-cursos.png', 1, 2);
+
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refound_Moment, available, only_Update) VALUES (1, 1, TIMESTAMP WITH TIME ZONE '2020-12-20T13:00:00Z', null,true, false);
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refound_Moment, available, only_Update) VALUES (2, 1, TIMESTAMP WITH TIME ZONE '2020-12-20T13:00:00Z', null,true, false);
+
+
+
+
+
+
+
+
+
